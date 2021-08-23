@@ -9,7 +9,7 @@ A simple class to control settings on an HP 8131A dual channel pulse generator.
 
 ## Usage
 
-```
+```python
 import hp8131a
 
 
