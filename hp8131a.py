@@ -95,8 +95,8 @@ class HP8131A(object):
     
     def manual_trigger(self):
         if not self.sim:
-            self.write('trigger_mode', 'TRIGGER')
-            self.write('trigger_ext_enabled', 'ON')
+            self.trigger_mode = 'TRIGGER'
+            self.trigger_ext_enabled = 'ON'
             self.dev.write('*TRG')
 
 
